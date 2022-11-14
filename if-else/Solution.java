@@ -73,11 +73,15 @@ public class Solution{
 }
 
 
+
 /*
- * Owner in this file
- * Sahan Kaushalya
- * follow my github and social
- * https://github.com/mkskaushalya
- * https://github.com/mkskaushalya/Hackerrank-Java
- * https://www.linkedin.com/in/sahankaushalya/
+ * ========================================================================================
+ * =======                           Owner in this file                             =======
+ * =======                            Sahan Kaushalya                               =======
+ * =======                      follow my github and social                         =======
+ * =======--------------------------------------------------------------------------=======
+ * ======= Github           :   https://github.com/mkskaushalya                     =======
+ * ======= Github Repostory :   https://github.com/mkskaushalya/Hackerrank-Java     =======
+ * ======= LinkedIn         :   https://www.linkedin.com/in/sahankaushalya/         =======
+ * ========================================================================================
  */
