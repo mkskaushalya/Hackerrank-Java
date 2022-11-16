@@ -11,7 +11,7 @@ description
 
 - Input Format
 
-
+- Output Format
 
 - Sample Input
 ```
