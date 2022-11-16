@@ -6,18 +6,18 @@ description
 ```
 
 
-- Task
+### Task
 
 
-- Input Format
+### Input Format
 
-- Output Format
+### Output Format
 
-- Sample Input
+### Sample Input
 ```
 
 ```
-- Sample Output
+### Sample Output
 ```
 
 ```
