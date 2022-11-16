@@ -1,44 +1,43 @@
 # Java Stdin and Stdout II
+In this challenge, you must read an integer, a double, and a String from stdin, then print the values according to the instructions in the Output Format section below. To make the problem a little easier, a portion of the code is provided for you in the editor.
 
-Most HackerRank challenges require you to read input from stdin (standard input) and write output to stdout (standard output).
+Note: We recommend completing (Java Stdin and Stdout I)["https://github.com/mkskaushalya/Hackerrank-Java/tree/main/java-stdin-and-stdout-1"] before attempting this challenge.
 
-One popular way to read input from stdin is by using the Scanner class and specifying the Input Stream as System.in. For example:
 ```java
-Scanner scanner = new Scanner(System.in);
-String myString = scanner.next();
-int myInt = scanner.nextInt();
-scanner.close();
+//java code
+```
 
-System.out.println("myString is: " + myString);
-System.out.println("myInt is: " + myInt);
-```
-The code above creates a Scanner object named scanner and uses it to read a String and an int. It then closes the Scanner object because there is no more input to read, and prints to stdout using `System.out.println(String)`. So, if our input is:
-```
-Hi 5
-```
-Our code will print:
-```
-myString is: Hi
-myInt is: 5
-```
-Alternatively, you can use the BufferedReader class.
 
 - Task
-In this challenge, you must read 3 integers from stdin and then print them to stdout. Each integer must be printed on a new line. To make the problem a little easier, a portion of the code is provided for you in the editor below.
+
 
 - Input Format
+There are three lines of input:
 
-There are 3 lines of input, and each line contains a single integer.
+1. The first line contains an integer.
+2. The second line contains a double.
+3. The third line contains a String.
+
+- Output Format
+There are three lines of output:
+
+1. On the first line, print String: followed by the unaltered String read from stdin.
+2. On the second line, print Double: followed by the unaltered double read from stdin.
+3. On the third line, print Int: followed by the unaltered integer read from stdin.
+
+To make the problem easier, a portion of the code is already provided in the editor.
+
+Note: If you use the nextLine() method immediately following the nextInt() method, recall that nextInt() reads integer tokens; because of this, the last newline character for that line of integer input is still queued in the input buffer and the next nextLine() will be reading the remainder of the integer line (which is empty).
 
 - Sample Input
 ```
 42
-100
-125
+3.1415
+Welcome to HackerRank's Java tutorials!
 ```
 - Sample Output
 ```
-42
-100
-125
+String: Welcome to HackerRank's Java tutorials!
+Double: 3.1415
+Int: 42
 ```
