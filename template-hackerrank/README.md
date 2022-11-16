@@ -1,2 +1,23 @@
-# Hackerrank-Java
-this is my codes in hacker rank problem solving.
+# Headline
+
+description
+```java
+//java code
+```
+
+
+- Task
+
+
+- Input Format
+
+
+
+- Sample Input
+```
+
+```
+- Sample Output
+```
+
+```
