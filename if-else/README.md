@@ -1,7 +1,7 @@
 # Java If-Else
 In this challenge, we test your knowledge of using if-else conditional statements to automate decision-making processes. An if-else statement has the following logical flow:
 
-<img src="https://s3.amazonaws.com/hr-challenge-images/13689/1446563087-4ec019a919-332px-If-Then-Else-diagram.svg.png" alt="Wikipedia if-else flow chart" title="" width="324px" height="323px">
+ ![Wikipedia if-else flow chart](https://s3.amazonaws.com/hr-challenge-images/13689/1446563087-4ec019a919-332px-If-Then-Else-diagram.svg.png)
 
 ### Task
 Given an integer,n , perform the following conditional actions:
