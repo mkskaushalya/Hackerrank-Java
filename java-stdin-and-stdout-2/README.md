@@ -14,7 +14,7 @@ There are three lines of input:
 2. The second line contains a double.
 3. The third line contains a String.
 
-- Output Format
+### Output Format
 
 There are three lines of output:
 
